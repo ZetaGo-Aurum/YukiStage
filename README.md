@@ -130,8 +130,9 @@ startBot();
 ## 🎖️ Credits & Penghargaan
 
 Pustaka **YukiStage** ini menggunakan MessageBuilder v4.6 sebagai pustaka internal tambahannya. Kredit penuh dan ucapan terima kasih sebesar-besarnya kami haturkan kepada:
-* **Nixel (NIXCODE)** — Pembuat asli dan pengembang utama pustaka `baileys-mbuilder`.
+* **Nixel (NIXCODE)** — Pembuat asli dan pengembang utama pustaka [baileys-mbuilder](https://www.npmjs.com/package/baileys-mbuilder).
 * **FongsiDev** / **FgsiDev** — Kontributor pustaka `baileys-mbuilder` & npm package publisher.
+* **Update & Support** — Silakan bergabung di [WhatsApp Channel](https://whatsapp.com/channel/0029VbCV1ck8fewpdNb2TY2k) MBuilder.
 * Pustaka asli Baileys oleh Rajeh Taher & WhiskeySockets.
 
 ---
