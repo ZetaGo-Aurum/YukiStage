@@ -131,13 +131,24 @@ startBot();
 
 Pustaka **YukiStage** ini menggunakan MessageBuilder v4.6 sebagai pustaka internal tambahannya. Kredit penuh dan ucapan terima kasih sebesar-besarnya kami haturkan kepada:
 * **Nixel (NIXCODE)** — Pembuat asli dan pengembang utama pustaka `baileys-mbuilder`.
-* Kontributor `baileys-mbuilder` (Ahmad tumbuh kembang).
+* Kontributor `baileys-mbuilder` (**FgsiDev** / **FongsiDev**).
 * Pustaka asli Baileys oleh Rajeh Taher & WhiskeySockets.
 
 ---
 
-## 📄 Lisensi
+## 👤 Author
 
-Proyek ini menggunakan lisensi **MIT**.
+* **Nixel** — Original author of MessageBuilder
+* **FongsiDev** — npm package publisher
+
+---
+
+## 📄 License
+
+MIT © **FongsiDev**
+
+> **Note:** The underlying MBuilder library (downloaded from repo) is Copyright © 2026 **Nixel(Dev)** & **FgsiDev(Contributor)**
+
+---
 
 Developed and maintained with ❄️ by **ZetaGo-Aurum**.
