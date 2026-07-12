@@ -1,7 +1,7 @@
 # ❄️ YukiStage
 
 <p align="center">
-  <img src="yuki.jpg" alt="YukiStage Logo" width="400" style="border-radius: 8px;" />
+  <img src="yuki.png" alt="YukiStage Logo" width="400" />
 </p>
 
 <p align="center">
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://img.shields.io/badge/version-1.1.1-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white">
-    <img src="https://img.shields.io/badge/version-1.1.1-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white" alt="Version" />
+  <a href="https://img.shields.io/badge/version-1.1.4-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white">
+    <img src="https://img.shields.io/badge/version-1.1.4-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white" alt="Version" />
   </a>
   <a href="https://img.shields.io/badge/node-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
     <img src="https://img.shields.io/badge/node-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" />
@@ -24,14 +24,14 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://saweria.co/itsliaaa" target="_blank">
-    <img src="https://img.shields.io/badge/Saweria-Donate-FAAE2B?style=for-the-badge&logo=saweria&logoColor=white" alt="Donate via Saweria" />
-  </a>
-  <a href="https://whatsapp.com/channel/0029VbCV1ck8fewpdNb2TY2k" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-Join%20Community-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp Community" />
-  </a>
-</p>
+<div align="center">
+
+### 🔗 Support & Community
+
+<a href="https://trakteer.id/Aleocrophic/tip" target="_blank"><img src="buttons/trakteer_button.svg" alt="Trakteer Tip" width="250"></a>
+<a href="https://chat.whatsapp.com/KwTSsF7t5868ERksMPamyQ" target="_blank"><img src="buttons/community_button.svg" alt="Join Community" width="250"></a>
+
+</div>
 
 ---
 
@@ -131,23 +131,16 @@ startBot();
 
 Pustaka **YukiStage** ini menggunakan MessageBuilder v4.6 sebagai pustaka internal tambahannya. Kredit penuh dan ucapan terima kasih sebesar-besarnya kami haturkan kepada:
 * **Nixel (NIXCODE)** — Pembuat asli dan pengembang utama pustaka `baileys-mbuilder`.
-* Kontributor `baileys-mbuilder` (**FgsiDev** / **FongsiDev**).
+* **FongsiDev** / **FgsiDev** — Kontributor pustaka `baileys-mbuilder` & npm package publisher.
 * Pustaka asli Baileys oleh Rajeh Taher & WhiskeySockets.
-
----
-
-## 👤 Author
-
-* **Nixel** — Original author of MessageBuilder
-* **FongsiDev** — npm package publisher
 
 ---
 
 ## 📄 License
 
-MIT © **FongsiDev**
+MIT © **ZetaGo-Aurum**
 
-> **Note:** The underlying MBuilder library (downloaded from repo) is Copyright © 2026 **Nixel(Dev)** & **FgsiDev(Contributor)**
+> **Note:** The underlying MBuilder library (integrated into this project) is Copyright © 2026 **Nixel(Dev)** & **FgsiDev(Contributor)**.
 
 ---
 
