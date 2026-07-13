@@ -6,12 +6,12 @@
 
 <p align="center">
   <b>Advanced WhatsApp Web API Hybrid Client Library for Node.js</b><br>
-  <sub>High-performance Baileys fork + Built-in MessageBuilder v4.6 integration</sub>
+  <sub>High-performance Baileys fork + Built-in MessageBuilder with Auto-Update System</sub>
 </p>
 
 <p align="center">
-  <a href="https://img.shields.io/badge/version-1.1.4-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white">
-    <img src="https://img.shields.io/badge/version-1.1.4-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white" alt="Version" />
+  <a href="https://img.shields.io/badge/version-1.1.5-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white">
+    <img src="https://img.shields.io/badge/version-1.1.5-00D4FF?style=for-the-badge&logo=octopusdeploy&logoColor=white" alt="Version" />
   </a>
   <a href="https://img.shields.io/badge/node-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
     <img src="https://img.shields.io/badge/node-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" />
@@ -37,16 +37,17 @@
 
 ## ❄️ Deskripsi Proyek
 
-**YukiStage** adalah hasil **"kawin silang resmi"** antara `@whiskeysockets/baileys` dan **`baileys-mbuilder` v4.6** yang dirancang khusus oleh **ZetaGo-Aurum** untuk memenuhi kebutuhan performa bot **Yuki AI** dengan maskot pelayan anime es (kuudere) khas Yuki.
+**YukiStage** adalah hasil **"kawin silang resmi"** antara `@whiskeysockets/baileys` dan **`baileys-mbuilder`** yang dirancang khusus oleh **ZetaGo-Aurum** untuk memenuhi kebutuhan performa bot **Yuki AI** dengan maskot pelayan anime es (kuudere) khas Yuki.
 
-Pustaka ini menggabungkan kekuatan core API komunikasi Baileys terbaru dengan kenyamanan MessageBuilder v4.6 untuk membuat Button, Carousel, Native Flow, dan AI Rich Response WhatsApp dalam satu paket tunggal tanpa perlu menginstal dependensi terpisah!
+Pustaka ini menggabungkan kekuatan core API komunikasi Baileys terbaru dengan kenyamanan MessageBuilder dengan sistem auto-update untuk membuat Button, Carousel, Native Flow, dan AI Rich Response WhatsApp dalam satu paket tunggal tanpa perlu menginstal dependensi terpisah!
 
 ---
 
 ## 🚀 Fitur Utama & Optimalisasi
 
-1. **Integrasi MessageBuilder v4.6 Bawaan (Hybrid)**
+1. **Integrasi MessageBuilder Bawaan (Hybrid) & Auto-Update**
    - Akses langsung class builder: `Button`, `ButtonV2`, `Carousel`, `AIRich`, dan `Toolkit` langsung dari root import `yukistage`.
+   - Dilengkapi sistem **Auto-Update & Hot Reload** otomatis (melalui Proxy) yang selalu memuat fungsionalitas MessageBuilder versi terbaru dari repositori resmi tanpa perlu mengupdate package secara manual.
    - Pembuatan pesan interaktif, dropdown menu (`single_select`), carousel multi-kartu, dan respon AI terformat menjadi sangat mudah dengan Fluent Chaining API.
 
 2. **Stabilitas Koneksi Tinggi (Anti-Disconnect)**
@@ -129,7 +130,7 @@ startBot();
 
 ## 🎖️ Credits & Penghargaan
 
-Pustaka **YukiStage** ini menggunakan MessageBuilder v4.6 sebagai pustaka internal tambahannya. Kredit penuh dan ucapan terima kasih sebesar-besarnya kami haturkan kepada:
+Pustaka **YukiStage** ini menggunakan MessageBuilder sebagai pustaka internal tambahannya. Kredit penuh dan ucapan terima kasih sebesar-besarnya kami haturkan kepada:
 * **Nixel (NIXCODE)** — Pembuat asli dan pengembang utama pustaka [baileys-mbuilder](https://www.npmjs.com/package/baileys-mbuilder).
 * **FongsiDev** / **FgsiDev** — Kontributor pustaka `baileys-mbuilder` & npm package publisher.
 * **Update & Support** — Silakan bergabung di [WhatsApp Channel](https://whatsapp.com/channel/0029VbCV1ck8fewpdNb2TY2k) MBuilder.
@@ -141,7 +142,7 @@ Pustaka **YukiStage** ini menggunakan MessageBuilder v4.6 sebagai pustaka intern
 
 MIT © **ZetaGo-Aurum**
 
-> **Note:** The underlying MBuilder library (integrated into this project) is Copyright © 2026 **Nixel(Dev)** & **FgsiDev(Contributor)**.
+> **Note:** The underlying MBuilder library (integrated into this project with auto-update system) is Copyright © 2026 **Nixel(Dev)** & **FgsiDev(Contributor)**.
 
 ---
 

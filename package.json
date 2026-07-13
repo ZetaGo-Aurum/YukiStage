@@ -1,7 +1,7 @@
 {
   "name": "yukistage",
   "type": "module",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "YukiStage — Lightweight, highly optimized, and robust fork of Baileys for Yuki AI.",
   "keywords": [
     "whatsapp",
