@@ -1,6 +1,7 @@
 import type { Contact } from './Contact.js';
 import type { WAMessageAddressingMode } from './Message.js';
 export type GroupParticipant = Contact & {
+    jid?: string;
     isAdmin?: boolean;
     isSuperAdmin?: boolean;
     admin?: 'admin' | 'superadmin' | null;
@@ -15,20 +16,17 @@ export interface GroupMetadata {
     addressingMode?: WAMessageAddressingMode;
     owner: string | undefined;
     ownerPn?: string | undefined;
-    ownerUsername?: string | undefined;
     owner_country_code?: string | undefined;
     subject: string;
     /** group subject owner */
     subjectOwner?: string;
     subjectOwnerPn?: string;
-    subjectOwnerUsername?: string;
     /** group subject modification date */
     subjectTime?: number;
     creation?: number;
     desc?: string;
     descOwner?: string;
     descOwnerPn?: string;
-    descOwnerUsername?: string;
     descId?: string;
     descTime?: number;
     /** if this group is part of a community, it returns the jid of the community to which it belongs */
@@ -53,7 +51,6 @@ export interface GroupMetadata {
     /** the person who added you to group or changed some setting in group */
     author?: string;
     authorPn?: string;
-    authorUsername?: string;
 }
 export interface WAGroupCreateResponse {
     status: number;

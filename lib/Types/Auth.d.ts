@@ -79,7 +79,6 @@ export type SignalDataTypeMap = {
     tctoken: {
         token: Buffer;
         timestamp?: string;
-        senderTimestamp?: number;
     };
     'identity-key': Uint8Array;
 };

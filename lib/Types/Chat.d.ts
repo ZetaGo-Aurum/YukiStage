@@ -20,7 +20,6 @@ export type WAPatchName = (typeof ALL_WA_PATCH_NAMES)[number];
 export interface PresenceData {
     lastKnownPresence: WAPresence;
     lastSeen?: number;
-    groupOnlineCount?: number;
 }
 export type BotListInfo = {
     jid: string;
